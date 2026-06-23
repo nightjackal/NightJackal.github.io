@@ -19,13 +19,35 @@ body {
     background-color: #DB073D;
     width: 100%;
     border-bottom: white solid 7px;
-    text-align: center;
+    text-align: left;
 }
 
-.TopButtons {
+.CompilerButton {
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
     margin-top: 15px;
     margin-right: 10px;
     margin-left: 10px;
+    border: #051630 solid 3px;
+}
+
+.shrunkImage {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.TopButtons {
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: #051630 solid 3px;
 }
 
 .pageTitleBackground {
