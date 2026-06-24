@@ -13,28 +13,32 @@
 
 <body>
     <div class="TopBar">
-        <button type="button" class="TopButtons" id="ResourcesButton" name="ResourcesButton">
-            <img src="TORUSSmall.png" alt="Click Here" class="shrunkImage">
-            <br>Home
-        </button>
-        <button type="button" class="TopButtons" id="ResourcesButton" name="ResourcesButton">
-            <img src="resources.png" alt="Click Here" class="shrunkImage">
-            <br>Resources
-        </button>
-        <button type="button" class="TopButtons" id="CompilerButton" name="CompilerButton">
-            Compiler
-        </button>
-        <button type="button" class="CompilerButton" id="HomeButton" name="HomeButton">
+        <a href="index.html" class="PageButtonLink">
+            <button type="button" class="TopButtons" id="ResourcesButton" name="ResourcesButton">
+                <img src="TORUSSmall.png" alt="Click Here" class="shrunkImage">
+                <br>Home
+            </button>
+        </a>
+        <a href="resources.html" class="PageButtonLink">
+            <button type="button" class="TopButtons" id="ResourcesButton" name="ResourcesButton">
+                <img src="resources.png" alt="Resources Icon" class="shrunkImage">
+                <br>Resources
+            </button>
+        </a>
+        <a href="compiler.html" class="PageButtonLink">
+            <button type="button" class="TopButtons" id="CompilerButton" name="HomeButton">
             <img src="compilerSymbol.jpg" alt="Click Here" class="shrunkImage">
             <br>Compiler
         </button>
-        <script></script>
+        </a>
+        <div class="pageName"><img src="TORUSSmall.png" alt="Click Here" class="shrunkImage2">Home Page<img
+                src="TORUSSmall.png" alt="Click Here" class="shrunkImage2"></div>
+
     </div>
     <div class="pageTitleBackground">
         <h1 class="pageTitle">TORUS Online</h1>
     </div>
     <h1 class="welcome">Welcome To The Destiny Of Computation</h1>
-    </div>
 
     <div class="Paragraph">
         <p class="ParagraphText" style="text-indent: 40px;">
@@ -49,11 +53,10 @@
             and maybe even one day in assembly for a specific
             computer architecture. Since I am self taught as of this
             point when it comes to programming, I am using Robert Nystrom's
-            Crafting Interpreters <a href="https://craftinginterpreters.com/a-map-of-the-territory.html"
-                style="color: #00589D;">
+            Crafting Interpreters  <a href="https://craftinginterpreters.com/introduction.html" target="_blank" style="text-decoration: underline;">
                 (link to guide)
             </a>
-            internet guide as a launch pad to learn how the systems that translate
+             internet guide as a launch pad to learn how the systems that translate
             source code in order to "send to space" my own project.
         </p>
         <img src="TORUS.png" class="logo">
